@@ -115,16 +115,16 @@ Tableau Dashboard
 
 # ⚙️ ETL Workflow
 
-1.Ride booking CSV data is ingested.
-2.Kafka Producer streams booking records.
-3.Kafka stores ride events.
-4.PySpark Consumer processes streaming data.
-5.Data cleaning and transformation are performed.
-6.Processed data is stored in Hadoop HDFS.
-7.Hive stores processed data.
-8.HiveQL generates analytical datasets.
-9.Analytical CSV files are exported.
-10.Tableau dashboards visualize business insights.
+#1.Ride booking CSV data is ingested.
+#2.Kafka Producer streams booking records.
+#3.Kafka stores ride events.
+#4.PySpark Consumer processes streaming data.
+#5.Data cleaning and transformation are performed.
+#6.Processed data is stored in Hadoop HDFS.
+#7.Hive stores processed data.
+#8.HiveQL generates analytical datasets.
+#9.Analytical CSV files are exported.
+#10.Tableau dashboards visualize business insights.
 
 # Dashboard Features
 ### Executive Dashboard
@@ -211,42 +211,19 @@ Tableau Dashboard
 
 # Future Enhancements
 
-- Live Kafka Streaming
-- Real-Time Dashboard
+- Live Kafka to Tableau integration
+- Real-time streaming dashboards
 - Demand Forecasting
 - Driver Recommendation System
 - Route Optimization
 - ML-Based Surge Pricing
-- Cloud Deployment (AWS/Azure)
-
----
-
-# Project Structure
-
-```
-Ride-Sharing-Analytics-Platform/
-│
-├── data/
-│   └── ride_booking.csv
-│
-├── kafka/
-│
-├── pyspark/
-│
-├── hive/
-│
-├── tableau/
-│
-├── images/
-│   ├── project_architecture.png
-│   ├── ride_booking_dashboard.png
-│   └── operational_dashboard.png
-│
-├── README.md
-└── requirements.txt
-```
+- Cloud deployment using AWS/Azure
 
 ---
 
 
-# ⭐ If you found this project useful, don't forget to Star the repository!
+---
+
+
+# Author
+Vatsal RohitKumar Mistry
