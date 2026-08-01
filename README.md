@@ -127,42 +127,27 @@ Tableau Dashboard
 10.Tableau dashboards visualize business insights.
 
 # Dashboard Features
-## Executive Dashboard
+### Executive Dashboard
 
-Total Trips
-Total Revenue
-Average Fare
-Average Trip Distance
-Average Ride Duration
-Monthly Revenue Trend
-Trips by Weekday
-Top Revenue Pickup Cities
-Payment Method Distribution
+- Total Trips
+- Total Revenue
+- Average Fare
+- Average Trip Distance
+- Average Ride Duration
+- Monthly Revenue Trend
+- Trips by Weekday
+- Top Revenue Pickup Cities
+- Payment Method Distribution
 
-## Operational Dashboard
+### Operational Dashboard
 
-Driver Performance
-Customer Ratings
-Ride Category Analysis
-Weather Analysis
-Traffic Analysis
-Trip Status Distribution
-Highest Revenue Drivers
-
-## Key Performance Indicators
-Total Trips
-Total Revenue
-Average Fare
-Average Trip Distance
-Average Ride Duration
-Completed Trip Rate
-Average Customer Rating
-Top Driver Rating
-
-## Dashboard Preview
-# Ride Booking Performance
-
-![Ride Booking Dashboard](dash1.png)
+- Driver Performance
+- Customer Ratings
+- Ride Category Analysis
+- Weather Analysis
+- Traffic Analysis
+- Trip Status Distribution
+- Highest Revenue Drivers
 
 ### KPIs
 
@@ -174,9 +159,17 @@ Top Driver Rating
 - Average Fare
 - Average Ride Duration
 
+
+## Dashboard Preview
+# Ride Booking Performance Dashboard
+
+![Ride Booking Dashboard](dash1.png)
+
+
+
 ---
 
-# Dashboard 2 - Operational Analytics
+# Operational Analytics Dashboard
 
 ![Operational Dashboard](dash2.png)
 
