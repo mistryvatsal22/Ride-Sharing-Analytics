@@ -149,7 +149,7 @@ Tableau Dashboard
 
 > **Replace the image below with your Tableau dashboard screenshot**
 
-![Operational Dashboard](images/operational_dashboard.png)
+![Operational Dashboard](image_dash2.png)
 
 ### Analysis
 
