@@ -173,16 +173,6 @@ Tableau Dashboard
 
 ![Operational Dashboard](dash2.png)
 
-### Analysis
-
-- Booking Trends
-- Revenue Analysis
-- Payment Distribution
-- Ride Category Distribution
-- Driver Performance
-- Weather Analysis
-- Traffic Analysis
-
 ---
 
 # Business Insights
