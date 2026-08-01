@@ -34,7 +34,7 @@ This project builds a complete Big Data pipeline that:
 
 #  Project Architecture
 
-![Architecture](images/project_architecture.png)
+![Architecture](arch.png)
 
 ---
 
