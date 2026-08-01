@@ -222,9 +222,5 @@ Ride-Sharing-Analytics-Platform/
 
 ---
 
-# Authors
-
-**Vatsal Mistry**
----
 
 # ⭐ If you found this project useful, don't forget to Star the repository!
