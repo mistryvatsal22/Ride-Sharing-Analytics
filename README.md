@@ -5,7 +5,7 @@ A scalable **Big Data Analytics Platform** that processes large-scale ride booki
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Ride-sharing companies generate millions of booking records every day. Traditional analytics systems struggle to process large-scale datasets efficiently and provide real-time business insights.
 
@@ -20,7 +20,7 @@ This project builds a complete Big Data pipeline that:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Build a scalable Big Data pipeline
 - Process large ride booking datasets efficiently
@@ -32,13 +32,13 @@ This project builds a complete Big Data pipeline that:
 
 ---
 
-# 🏗️ Project Architecture
+#  Project Architecture
 
 ![Architecture](images/project_architecture.png)
 
 ---
 
-# 🔄 Workflow
+# Workflow
 
 ```text
 Ride Booking Dataset
@@ -59,9 +59,6 @@ HDFS Storage
 Apache Hive
         │
         ▼
-Apache Airflow
-        │
-        ▼
 Tableau Dashboard
 ```
 
@@ -76,7 +73,6 @@ Tableau Dashboard
 | Storage | Hadoop HDFS |
 | Data Warehouse | Apache Hive |
 | Processing | Apache Spark (PySpark) |
-| Workflow | Apache Airflow |
 | Visualization | Tableau Public |
 | Version Control | Git & GitHub |
 
@@ -129,14 +125,9 @@ Tableau Dashboard
 ### Load
 
 - Apache Hive Tables
-
-### Automation
-
-- Apache Airflow DAG
-
 ---
 
-# 📊 Dashboard 1 - Ride Booking Performance
+# Dashboard 1 - Ride Booking Performance
 
 > **Replace the image below with your Tableau dashboard screenshot**
 
@@ -154,7 +145,7 @@ Tableau Dashboard
 
 ---
 
-# 📈 Dashboard 2 - Operational Analytics
+# Dashboard 2 - Operational Analytics
 
 > **Replace the image below with your Tableau dashboard screenshot**
 
@@ -172,7 +163,7 @@ Tableau Dashboard
 
 ---
 
-# 💡 Business Insights
+# Business Insights
 
 - Friday records the highest number of bookings.
 - UPI is the most preferred payment method.
@@ -184,7 +175,7 @@ Tableau Dashboard
 
 ---
 
-# ✅ Advantages
+# Advantages
 
 - Scalable architecture
 - Distributed data processing
@@ -196,7 +187,7 @@ Tableau Dashboard
 
 ---
 
-# 🚀 Future Enhancements
+# Future Enhancements
 
 - Live Kafka Streaming
 - Real-Time Dashboard
@@ -208,7 +199,7 @@ Tableau Dashboard
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 Ride-Sharing-Analytics-Platform/
@@ -221,8 +212,6 @@ Ride-Sharing-Analytics-Platform/
 ├── pyspark/
 │
 ├── hive/
-│
-├── airflow/
 │
 ├── tableau/
 │
@@ -237,14 +226,9 @@ Ride-Sharing-Analytics-Platform/
 
 ---
 
-# 👨‍💻 Authors
+# Authors
 
 **Vatsal Mistry**
-
-CDAC Pune
-
-GitHub: https://github.com/prat-debug
-
 ---
 
 # ⭐ If you found this project useful, don't forget to Star the repository!
