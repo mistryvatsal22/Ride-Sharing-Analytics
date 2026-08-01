@@ -3,11 +3,15 @@
 
 A scalable **Big Data Analytics Platform** that processes large-scale ride booking data using **Apache Kafka, PySpark, Hadoop HDFS, Hive, Apache Airflow, and Tableau**. The project transforms raw ride booking data into meaningful business insights through an automated ETL pipeline and interactive dashboards.
 
+Ride-sharing companies generate thousands of ride bookings daily. Processing this large volume of data using traditional databases becomes inefficient.
+
+This project builds a scalable analytics platform capable of ingesting, processing, storing, and analyzing ride-booking data to support operational monitoring and business decision-making.
+
 ---
 
 ##  Project Overview
 
-Ride-sharing companies generate millions of booking records every day. Traditional analytics systems struggle to process large-scale datasets efficiently and provide real-time business insights.
+The Ride Sharing Analytics Platform is a Big Data project developed to process, transform, and analyze large-scale ride booking data. The platform builds an end-to-end analytics pipeline that converts raw ride data into business insights through distributed processing, data warehousingand interactive dashboards.
 
 This project builds a complete Big Data pipeline that:
 
@@ -109,25 +113,54 @@ Tableau Dashboard
 
 ---
 
-# ⚙️ ETL Pipeline
+# ⚙️ ETL Workflow
 
-### Extract
+1.Ride booking CSV data is ingested.
+2.Kafka Producer streams booking records.
+3.Kafka stores ride events.
+4.PySpark Consumer processes streaming data.
+5.Data cleaning and transformation are performed.
+6.Processed data is stored in Hadoop HDFS.
+7.Hive stores processed data.
+8.HiveQL generates analytical datasets.
+9.Analytical CSV files are exported.
+10.Tableau dashboards visualize business insights.
 
-- Ride Booking CSV Dataset
+# Dashboard Features
+## Executive Dashboard
 
-### Transform
+Total Trips
+Total Revenue
+Average Fare
+Average Trip Distance
+Average Ride Duration
+Monthly Revenue Trend
+Trips by Weekday
+Top Revenue Pickup Cities
+Payment Method Distribution
 
-- Missing Value Handling
-- Data Cleaning
-- Standardization
-- Feature Engineering
+## Operational Dashboard
 
-### Load
+Driver Performance
+Customer Ratings
+Ride Category Analysis
+Weather Analysis
+Traffic Analysis
+Trip Status Distribution
+Highest Revenue Drivers
 
-- Apache Hive Tables
----
+## Key Performance Indicators
+Total Trips
+Total Revenue
+Average Fare
+Average Trip Distance
+Average Ride Duration
+Completed Trip Rate
+Average Customer Rating
+Top Driver Rating
 
-# Dashboard 1 - Ride Booking Performance
+## Dashboard Preview
+# Ride Booking Performance
 
 ![Ride Booking Dashboard](dash1.png)
 
