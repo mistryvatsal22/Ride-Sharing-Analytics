@@ -131,7 +131,7 @@ Tableau Dashboard
 
 > **Replace the image below with your Tableau dashboard screenshot**
 
-![Ride Booking Dashboard](images/ride_booking_dashboard.png)
+![Ride Booking Dashboard](dash1.png)
 
 ### KPIs
 
@@ -149,7 +149,7 @@ Tableau Dashboard
 
 > **Replace the image below with your Tableau dashboard screenshot**
 
-![Operational Dashboard](image_dash2.png)
+![Operational Dashboard](dash2.png)
 
 ### Analysis
 
